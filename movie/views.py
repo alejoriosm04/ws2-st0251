@@ -8,4 +8,4 @@ def home(request):
     return render(request, 'home.html', {'name': 'Alejandro Ríos'})
 
 def about(request):
-    return HttpResponse('<h1>Movie Review About</h1>')
+    return render(request, 'about.html')
