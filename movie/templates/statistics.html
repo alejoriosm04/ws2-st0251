@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<body>
+    <h2>Movie Statistics</h2>
+    <div style="text-align: center;">
+        <h3>Charts: Movies per Year and Movies per Genre</h3>
+        <img src="data:image/png;base64,{{ graphic }}" alt="Movies Statistics" style="max-width: 100%; height: auto;">
+        <!-- Utiliza max-width y height auto para asegurarte de que la imagen se ajuste bien a diferentes tamaños de pantalla -->
+    </div>
+</body>
+
+{% endblock content %}
